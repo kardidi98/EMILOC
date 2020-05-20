@@ -1,0 +1,55 @@
+body { 
+  margin: 0;
+  font-family: HelveticaNeueW01-45Ligh,Helvetica,Arial,sans-serif;
+  font-style: initial;
+  background-color: #fff;
+}
+html{
+  scroll-behavior: smooth;
+ 
+}
+footer{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color:rgba(79, 14, 20,0.6);
+  color: black;
+  
+
+}
+.cacher{
+  display: none;
+}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 40px;
+
+}
+
+.icon {
+  padding: 10px;
+  background: rgba(79, 14, 20,0.8);
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 1px solid dodgerblue;
+}
+
+#opening{
+    font-size: 30px;
+  }
+#opening2{
+    font-size: 20px;
+  }

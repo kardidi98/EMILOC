@@ -1,0 +1,145 @@
+html{
+	scroll-behavior: smooth;
+}
+footer{
+		  text-align: center;
+		  padding-top: 5px;
+		  padding-bottom: 5px;
+		  background-color:rgba(246, 135, 54,0.6);
+		  color: black;
+		  padding: 50px;
+		  
+
+}
+/*.img_ev:hover{
+	transition: all .6s ease;
+	opacity: 0.9;
+}*/
+
+.event:hover{
+	box-shadow: 0 0 3px rgba(79, 14, 20,20);
+	transition: all .6s ease;
+	transform: scale(1.01);
+
+}
+.connexion:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.inscrire:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.cacher{
+	display: none;
+}
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+input[type=email]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+/* Style the label to display next to the inputs */
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-style: initial;
+  color: white;
+  text-align: left;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #FFC107;
+  color: white;
+  padding: 12px 20px;
+  width: 30%;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-left: 350px;
+  margin-top: 30px;
+}
+.buttonsubmit:hover{
+  background-color: white;
+  color: #000;
+}
+
+/* Style the container */
+
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#usericon{
+  float: right; 
+  margin-left: 10px;
+  /*border: 1px solid white;
+  border-radius: 50%;*/
+  padding: 10px;
+  padding-right: 13px;
+  padding-left: 13px;
+  margin-right: 10px;
+  color: brown;
+  margin-top: 25px;
+}
+#usericon:hover{
+  cursor: pointer;
+}
+@media only screen and (max-width: 1300px){
+      
+
+      .mapp{
+        width: 800px;
+        height: 300px;
+      }
+      #usericon{
+          float: right; 
+          margin-left: 10px;
+          /*border: 1px solid white;
+          border-radius: 50%;*/
+          padding: 10px;
+          padding-right: 13px;
+          padding-left: 13px;
+          margin-right: 10px;
+          color: brown;
+          margin-top: 10px;
+        }
+      
+    }
